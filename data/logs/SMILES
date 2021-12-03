@@ -1,0 +1,12 @@
+c1ccc(OC)cc1Cc1[nH]ccc2n1	0.0
+NC(=N)CCSc1ncccc1	0.17
+C(S)C=NNc1scc(C)n1	0.17
+C(=O)(N)CC(=O)NCc1ccccc1OCCOc1ccccc1	0.14
+CC(c1ccccc1)NC(=O)Cc1cccc(OC)c1	0.18
+c1ccccc1OCCOc1cccc2cccc2CCOc1nccc(OCOC(=O)NN)c1	0.0
+CC(c1ccccc1C)Oc1ccc(CC(CNS(=O)(=O)c2ccccc2)NCC2CCC2)cc1	0.26
+NC(=N)c1ncccc1OCC(c1ccccc1)O	0.31
+C(O)C(N)c1cc(Br)sc1	0.18
+C1SCc2ccc(OC)cc2CN1Cc1ccccc1CO	0.25
+Oc1cccc2c1NCCc2[nH]cc2	0.0
+COC(=O)CSc1sc(C)cc1	0.22

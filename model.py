@@ -98,7 +98,7 @@ class RNN():
             logits, h = self.rnn(x, h)
             prob = F.softmax(logits)
             log_prob = F.log_softmax(logits)
-            x = torch.multinomial(prob).view(-1)
+            x = torch.multinomial(prob, num_samples=1).view(-1)
             sequences.append(x.view(-1, 1))
             log_probs +=  NLLLoss(log_prob, x)
             entropy += -torch.sum((log_prob * prob), 1)

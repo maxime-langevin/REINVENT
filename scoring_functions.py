@@ -67,9 +67,10 @@ class activity_model():
     """Scores based on an ECFP classifier for activity."""
 
     kwargs = ["clf_path"]
-    clf_path = 'data/clf.pkl'
+    clf_path = 'data/activity_model_jak2.pkl'
 
     def __init__(self):
+   
         with open(self.clf_path, "rb") as f:
             self.clf = pickle.load(f)
 
